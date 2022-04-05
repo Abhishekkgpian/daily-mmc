@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+  background-image: url(./krishna-radha-krishna.gif);
+  background-repeat: no-repeat;
+  background-repeat: repeat-y;
+ background-size: cover;
+    
+}
+#startchanting{
+    display: none;
+    margin-left: 35vw;
+    margin-top: 2vh;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+#body{
+    background: transparent;
+}
+#chanting_1st_page{
+    display: block;
+    background: none;
+    
+    background-size: contain;
+
+}
+#chanting_2nd_page{
+    display: none;
+    
+    background: none;
+    font-size: 2em;
+    
+    background-size: contain;
+}
+.mantra{
+    color: rgb(255, 0, 0);
+    
+    font-size: 2em; 
+   justify-content: center;
+   margin-top: 25vh;
+   margin-left: 2vw;
+   background-color: white;
+   z-index: 1;
+   background-size: contain;
+}
+#nextBtn{
+    display: block;
+    color: rgb(150 255 58);
+    background-image: none;
+    z-index: 1;
+    background-color: purple;
+}
+#prevBtn{
+    display: none;
+    color: rgb(150 255 58);
+    background-image: none;
+    z-index: 1;
+    background-color: purple;
+}
+.btn{
+    justify-content: center;
+    margin-left: 37%;
+    
+    background-image: none;
+    z-index: 1;
+    font-size: 2em;
+    background: transparent;
+}

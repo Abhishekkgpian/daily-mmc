@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <style>
+        @keyframes chanting {
+    0%{opacity: 1;}
+    25%{opacity: 0;}
+    75%{opacity: 0;}
+    100%{opacity: 0;}
+}
+
+#a{
+    animation-name: chanting;
+    animation-duration: 5.52s;
+    opacity: 0;
+    animation-iteration-count: 108;
+    animation-timing-function: linear;
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding-left: 20vw;
+    margin-top: -10vh;
+}
+#b{
+    animation-name: chanting;
+    animation-duration: 5.52s;
+    animation-delay: 1.38s;
+    opacity: 0;
+    animation-iteration-count: 108;
+    animation-timing-function: linear;
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding-left: 20vw;
+}
+#c{
+    animation-name: chanting;
+    animation-duration: 5.52s;
+    animation-delay: 2.76s;
+    opacity: 0;
+    animation-iteration-count: 108;
+    animation-timing-function: linear;
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding-left: 20vw;
+}
+#d{
+    animation-name: chanting;
+    animation-duration: 5.52s;
+    animation-delay: 4.14s;
+    opacity: 0;
+    animation-iteration-count: 108;
+    animation-timing-function: linear;
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding-left: 20vw;
+}
+#startedText{
+    animation-name: chanting; 
+    animation-duration: 4s;
+   animation-fill-mode: forwards;
+   
+    animation-iteration-count: 1;
+}
+#completed{
+   animation-name: chanting;
+   animation-delay: 596.16s; 
+   animation-duration:1000s;
+   opacity: 0;
+}
+.chantingText{
+    font-size: 2em;
+}
+    </style>
+    <title>Chanting</title>
+</head>
+<body>
+    <h1 id="startedText">Started</h1>
+   <div class="chantingText"> <h1 id="completed">You have completed 108times! <br>Hare krishna!</h1>
+    <p id="a">Hare Krishna Hare Krishna</p>
+    <p id="b">Krishna Krishna Hare Hare</p>
+    <p id="c">Hare Ram Hare Ram </p>
+    <p id="d">Ram Ram Hare Hare</p></div>
+
+</body> <script src="chanting.js"></script>
+</html>
