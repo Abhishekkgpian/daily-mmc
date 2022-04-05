@@ -1,0 +1,2 @@
+# daily-mmc
+Hare Krishna!
